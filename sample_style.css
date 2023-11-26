@@ -1,0 +1,150 @@
+body {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.centered-content {
+    position: absolute;
+    text-align: center;
+    border: 2px solid red;
+    height: 500px;
+    width: 500px;
+}
+
+.div_left {
+    position: absolute;
+    left: 0;
+    border: 2px solid green;
+    height: 700px;
+    width: 500px;
+}
+
+.div_right {
+    position: absolute;
+    right: 0;
+    border: 2px solid blue;
+    height: 700px;
+    width: 500px;
+
+    background-color: #EAE8FF;
+
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wesmile-logo {
+    border: 2px solid orange;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);    
+}
+
+.input {
+    position: absolute;
+    
+    width: 425px;
+    height: 50px;
+    background-color: #ffffff;
+    border-radius: 10px;
+
+
+    font-family: "Montserrat-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #a4a4a4;
+    font-size: 18px;
+    text-align: left;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+
+}
+
+.login {
+    position: relative;
+    width: 425px;
+    height: 76px;
+    background-color: #7ed956;
+    border-radius: 10px;
+}
+
+
+.text-wrapper-3 {
+    position: absolute;
+    width: 117px;
+    height: 51px;
+    font-family: "Montserrat-Bold", Helvetica;
+    font-weight: 700;
+    color: #491d72;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.div-wrapper {
+    position: relative;
+    width: 425px;
+    height: 64px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.div {
+    width: 162px;
+    left: 24px;
+    position: absolute;
+    height: 15px;
+    top: 24px;
+    mix-blend-mode: multiply;
+    font-family: "Montserrat-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #a4a4a4;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+.text-wrapper-5 {
+    position: absolute;
+    width: 176px;
+    height: 15px;
+    /* top: 595px;
+    left: 356px; */
+    mix-blend-mode: multiply;
+    font-family: "Montserrat-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #a4a4a4;
+    font-size: 16px;
+    text-align: right;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+.overlap-group {
+    position: relative;
+    width: 425px;
+    height: 76px;
+    background-color: #7ed956;
+    border-radius: 10px;
+}
+.text-wrapper {
+    position: absolute;
+    width: 212px;
+    height: 34px;
+    top: 22px;
+    left: 107px;
+    font-family: "Montserrat-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #491d72;
+    font-size: 25px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
